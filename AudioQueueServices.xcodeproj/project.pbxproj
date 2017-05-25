@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6A07381ED6A6E800AD1E1F /* MusicControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A07371ED6A6E800AD1E1F /* MusicControlViewController.m */; };
 		FCCA71941A454AD7007FC75F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA71931A454AD7007FC75F /* main.m */; };
 		FCCA71971A454AD7007FC75F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA71961A454AD7007FC75F /* AppDelegate.m */; };
 		FCCA719A1A454AD7007FC75F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA71991A454AD7007FC75F /* ViewController.m */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF6A07361ED6A6E800AD1E1F /* MusicControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicControlViewController.h; sourceTree = "<group>"; };
+		BF6A07371ED6A6E800AD1E1F /* MusicControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicControlViewController.m; sourceTree = "<group>"; };
 		FCCA718E1A454AD7007FC75F /* AudioQueueServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioQueueServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCA71921A454AD7007FC75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCCA71931A454AD7007FC75F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				FCCA71961A454AD7007FC75F /* AppDelegate.m */,
 				FCCA71981A454AD7007FC75F /* ViewController.h */,
 				FCCA71991A454AD7007FC75F /* ViewController.m */,
+				BF6A07361ED6A6E800AD1E1F /* MusicControlViewController.h */,
+				BF6A07371ED6A6E800AD1E1F /* MusicControlViewController.m */,
 				FCCA719B1A454AD7007FC75F /* Main.storyboard */,
 				FCCA719E1A454AD7007FC75F /* Images.xcassets */,
 				FCCA71A01A454AD7007FC75F /* LaunchScreen.xib */,
@@ -387,6 +392,7 @@
 				FCCA71941A454AD7007FC75F /* main.m in Sources */,
 				FCCA71F01A456DD6007FC75F /* FSPlaylistItem.m in Sources */,
 				FCCA71E31A456DD6007FC75F /* audio_stream.cpp in Sources */,
+				BF6A07381ED6A6E800AD1E1F /* MusicControlViewController.m in Sources */,
 				FCCA71E41A456DD6007FC75F /* caching_stream.cpp in Sources */,
 				FCCA71EC1A456DD6007FC75F /* FSAudioStream.mm in Sources */,
 			);
